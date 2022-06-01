@@ -22,24 +22,27 @@ export default function About() {
         </div>
         <br />
         <h2 className="text-xl text-bold">Life Experience</h2>
-        <div className="flex bg-neutral text-center justify-center">
-          <table className="table-auto text-primary-content text-center border-separate border border-slate-400">
+        <div className="flex overflow-x-auto bg-neutral text-center justify-center">
+          <table className="table-auto text-primary-content text-center border-collapse border border-slate-400">
             <thead>
-              <th className="text-center">Interests</th>
-              <th className="text-center">Projects</th>
+              <th className="text-center p-4">Interests</th>
+              <th className="text-center p-4">Projects</th>
             </thead>
             <tbody className="">
-              <td className="text-left border-separate border border-slate-400 my-0">
-                <tr>Spending time with my wife & boys!</tr>
-                <tr>Building applications</tr>
-                <tr>Sheetmetal Craft</tr>
-                <tr>Biking</tr>
-                <tr>Swimming - Pool (not ocean)</tr>
-                <tr>Reading about emerging technologies</tr>
-                <tr>Pondering the mysteries of the universe</tr>
-                <tr>Wine & Craft Beer</tr>
+                <thead>
+                  <th className="text-center p-4"></th>
+                </thead>
+              <td className="flex flex-col items-start text-left p-4 border-collapse border border-slate-400">
+                <tr className='hover:bg-base-300'>Spending time with my wife & boys!</tr>
+                <tr className='hover:bg-base-300'>Building applications</tr>
+                <tr className='hover:bg-base-300'>Sheetmetal Craft</tr>
+                <tr className='hover:bg-base-300'>Biking</tr>
+                <tr className='hover:bg-base-300'>Swimming - Pool (not ocean)</tr>
+                <tr className='hover:bg-base-300'>Reading about emerging technologies</tr>
+                <tr className='hover:bg-base-300'>Pondering the mysteries of the universe</tr>
+                <tr className='hover:bg-base-300'>Wine & Craft Beer</tr>
               </td>
-              <td className="text-left">
+              <td className="text-left p-4">
                 <thead>
                   <th className="text-center">Name</th>
                   <th className="text-center">Category</th>
@@ -48,157 +51,157 @@ export default function About() {
                   <th className="text-center">Size</th>
                   <th className="text-center">Oversight</th>
                 </thead>
-                <tr>
-                  <td className="text-left border-separate border border-slate-400">Ballpark Village</td>
-                  <td className="text-left border-separate border border-slate-400">Commercial</td>
-                  <td className="text-left border-separate border border-slate-400">Condominiums</td>
-                  <td className="text-left border-separate border border-slate-400">Construction</td>
-                  <td className="text-left border-separate border border-slate-400">Highrise</td>
-                  <td className="text-left border-separate border border-slate-400">City</td>
+                <tr className='hover:bg-base-300'>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Ballpark Village</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Commercial</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Condominiums</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Construction</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Highrise</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">City</td>
                 </tr>
-                <tr>
-                  <td className="text-left border-separate border border-slate-400">Lane Field South</td>
-                  <td className="text-left border-separate border border-slate-400">Commercial</td>
-                  <td className="text-left border-separate border border-slate-400">Hotel</td>
-                  <td className="text-left border-separate border border-slate-400">Construction</td>
-                  <td className="text-left border-separate border border-slate-400">Highrise</td>
-                  <td className="text-left border-separate border border-slate-400">City</td>
+                <tr className='hover:bg-base-300'>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Lane Field South</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Commercial</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Hotel</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Construction</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Highrise</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">City</td>
                 </tr>
-                <tr>
-                  <td className="text-left border-separate border border-slate-400">Casa De Las Campanas</td>
-                  <td className="text-left border-separate border border-slate-400">Commercial</td>
-                  <td className="text-left border-separate border border-slate-400">Skilled Nursing Facility</td>
-                  <td className="text-left border-separate border border-slate-400">Construction</td>
-                  <td className="text-left border-separate border border-slate-400">Midrise</td>
-                  <td className="text-left border-separate border border-slate-400">OSHPD</td>
+                <tr className='hover:bg-base-300'>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Casa De Las Campanas</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Commercial</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Skilled Nursing Facility</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Construction</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Midrise</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">OSHPD</td>
                 </tr>
-                <tr>
-                  <td className="text-left border-separate border border-slate-400">Legacy International Center</td>
-                  <td className="text-left border-separate border border-slate-400">Commercial</td>
-                  <td className="text-left border-separate border border-slate-400">Office & Biolab</td>
-                  <td className="text-left border-separate border border-slate-400">Construction</td>
-                  <td className="text-left border-separate border border-slate-400">Highrise</td>
-                  <td className="text-left border-separate border border-slate-400">City</td>
+                <tr className='hover:bg-base-300'>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Legacy International Center</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Commercial</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Office & Biolab</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Construction</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Highrise</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">City</td>
                 </tr>
-                <tr>
-                  <td className="text-left border-separate border border-slate-400">Lilly Labs</td>
-                  <td className="text-left border-separate border border-slate-400">Commercial</td>
-                  <td className="text-left border-separate border border-slate-400">Office & Biolab</td>
-                  <td className="text-left border-separate border border-slate-400">Construction</td>
-                  <td className="text-left border-separate border border-slate-400">Midrise</td>
-                  <td className="text-left border-separate border border-slate-400">City</td>
+                <tr className='hover:bg-base-300'>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Lilly Labs</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Commercial</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Office & Biolab</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Construction</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Midrise</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">City</td>
                 </tr>
-                <tr>
-                  <td className="text-left border-separate border border-slate-400">Kaiser Riverside</td>
-                  <td className="text-left border-separate border border-slate-400">Commercial</td>
-                  <td className="text-left border-separate border border-slate-400">Hospital</td>
-                  <td className="text-left border-separate border border-slate-400">Construction</td>
-                  <td className="text-left border-separate border border-slate-400">Highrise</td>
-                  <td className="text-left border-separate border border-slate-400">OSHPD</td>
+                <tr className='hover:bg-base-300'>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Kaiser Riverside</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Commercial</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Hospital</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Construction</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Highrise</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">OSHPD</td>
                 </tr>
-                <tr>
-                  <td className="text-left border-separate border border-slate-400">Scripps Cardiovasctrar Institute</td>
-                  <td className="text-left border-separate border border-slate-400">Commercial</td>
-                  <td className="text-left border-separate border border-slate-400">Hospital</td>
-                  <td className="text-left border-separate border border-slate-400">Construction</td>
-                  <td className="text-left border-separate border border-slate-400">Midrise</td>
-                  <td className="text-left border-separate border border-slate-400">OSHPD</td>
+                <tr className='hover:bg-base-300'>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Scripps Cardiovasctrar Institute</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Commercial</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Hospital</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Construction</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Midrise</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">OSHPD</td>
                 </tr>
-                <tr>
-                  <td className="text-left border-separate border border-slate-400">Sharp RB MOB</td>
-                  <td className="text-left border-separate border border-slate-400">Commercial</td>
-                  <td className="text-left border-separate border border-slate-400">Medical Office Building</td>
-                  <td className="text-left border-separate border border-slate-400">Construction</td>
-                  <td className="text-left border-separate border border-slate-400">Midrise</td>
-                  <td className="text-left border-separate border border-slate-400">City</td>
+                <tr className='hover:bg-base-300'>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Sharp RB MOB</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Commercial</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Medical Office Building</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Construction</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Midrise</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">City</td>
                 </tr>
-                <tr>
-                  <td className="text-left border-separate border border-slate-400">SDCCD Mesa College Fine Arts</td>
-                  <td className="text-left border-separate border border-slate-400">Commercial</td>
-                  <td className="text-left border-separate border border-slate-400">School</td>
-                  <td className="text-left border-separate border border-slate-400">Construction</td>
-                  <td className="text-left border-separate border border-slate-400">Lowrise</td>
-                  <td className="text-left border-separate border border-slate-400">DSA</td>
+                <tr className='hover:bg-base-300'>
+                  <td className="text-left p-4 border-collapse border border-slate-400">SDCCD Mesa College Fine Arts</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Commercial</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">School</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Construction</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Lowrise</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">DSA</td>
                 </tr>
-                <tr>
-                  <td className="text-left border-separate border border-slate-400">Wilson Middle School</td>
-                  <td className="text-left border-separate border border-slate-400">Commercial</td>
-                  <td className="text-left border-separate border border-slate-400">School</td>
-                  <td className="text-left border-separate border border-slate-400">Construction</td>
-                  <td className="text-left border-separate border border-slate-400">Midrise</td>
-                  <td className="text-left border-separate border border-slate-400">DSA</td>
+                <tr className='hover:bg-base-300'>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Wilson Middle School</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Commercial</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">School</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Construction</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Midrise</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">DSA</td>
                 </tr>
-                <tr>
-                  <td className="text-left border-separate border border-slate-400">Central Elemntary School</td>
-                  <td className="text-left border-separate border border-slate-400">Commercial</td>
-                  <td className="text-left border-separate border border-slate-400">School</td>
-                  <td className="text-left border-separate border border-slate-400">Construction</td>
-                  <td className="text-left border-separate border border-slate-400">Lowrise</td>
-                  <td className="text-left border-separate border border-slate-400">DSA</td>
+                <tr className='hover:bg-base-300'>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Central Elemntary School</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Commercial</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">School</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Construction</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Lowrise</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">DSA</td>
                 </tr>
-                <tr>
-                  <td className="text-left border-separate border border-slate-400">Seal Teams 1 & 3 P892 & P964</td>
-                  <td className="text-left border-separate border border-slate-400">Commercial</td>
-                  <td className="text-left border-separate border border-slate-400">ATFP High Security Training Facility</td>
-                  <td className="text-left border-separate border border-slate-400">Construction</td>
-                  <td className="text-left border-separate border border-slate-400">Lowrise</td>
-                  <td className="text-left border-separate border border-slate-400">NAVFAC</td>
+                <tr className='hover:bg-base-300'>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Seal Teams 1 & 3 P892 & P964</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Commercial</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">ATFP High Security Training Facility</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Construction</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Lowrise</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">NAVFAC</td>
                 </tr>
-                <tr>
-                  <td className="text-left border-separate border border-slate-400">P921, P988, P949 & P950</td>
-                  <td className="text-left border-separate border border-slate-400">Commercial</td>
-                  <td className="text-left border-separate border border-slate-400">ATFP High Security Training Facility</td>
-                  <td className="text-left border-separate border border-slate-400">Construction</td>
-                  <td className="text-left border-separate border border-slate-400">Lowrise</td>
-                  <td className="text-left border-separate border border-slate-400">NAVFAC</td>
+                <tr className='hover:bg-base-300'>
+                  <td className="text-left p-4 border-collapse border border-slate-400">P921, P988, P949 & P950</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Commercial</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">ATFP High Security Training Facility</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Construction</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Lowrise</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">NAVFAC</td>
                 </tr>
-                <tr>
-                  <td className="text-left border-separate border border-slate-400">Cray Ct.</td>
-                  <td className="text-left border-separate border border-slate-400">Commercial</td>
-                  <td className="text-left border-separate border border-slate-400">Office & Biolab</td>
-                  <td className="text-left border-separate border border-slate-400">Construction</td>
-                  <td className="text-left border-separate border border-slate-400">Midrise</td>
-                  <td className="text-left border-separate border border-slate-400">City</td>
+                <tr className='hover:bg-base-300'>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Cray Ct.</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Commercial</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Office & Biolab</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Construction</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Midrise</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">City</td>
                 </tr>
-                <tr>
-                  <td className="text-left border-separate border border-slate-400">Oberlin Dr.</td>
-                  <td className="text-left border-separate border border-slate-400">Commercial</td>
-                  <td className="text-left border-separate border border-slate-400">Office & Biolab</td>
-                  <td className="text-left border-separate border border-slate-400">Construction</td>
-                  <td className="text-left border-separate border border-slate-400">Single Story</td>
-                  <td className="text-left border-separate border border-slate-400">City</td>
+                <tr className='hover:bg-base-300'>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Oberlin Dr.</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Commercial</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Office & Biolab</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Construction</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Single Story</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">City</td>
                 </tr>
-                <tr>
-                  <td className="text-left border-separate border border-slate-400">Boardwalk HCP</td>
-                  <td className="text-left border-separate border border-slate-400">Commercial</td>
-                  <td className="text-left border-separate border border-slate-400">Office</td>
-                  <td className="text-left border-separate border border-slate-400">Construction</td>
-                  <td className="text-left border-separate border border-slate-400">Highrise Campus - 3 buildings</td>
-                  <td className="text-left border-separate border border-slate-400">City</td>
+                <tr className='hover:bg-base-300'>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Boardwalk HCP</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Commercial</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Office</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Construction</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Highrise Campus - 3 buildings</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">City</td>
                 </tr>
-                <tr>
-                  <td className="text-left border-separate border border-slate-400">Central Elementary</td>
-                  <td className="text-left border-separate border border-slate-400">Commercial</td>
-                  <td className="text-left border-separate border border-slate-400">School</td>
-                  <td className="text-left border-separate border border-slate-400">Construction</td>
-                  <td className="text-left border-separate border border-slate-400">Lowrise Campus - 8 buildings</td>
-                  <td className="text-left border-separate border border-slate-400">DSA</td>
+                <tr className='hover:bg-base-300'>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Central Elementary</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Commercial</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">School</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Construction</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Lowrise Campus - 8 buildings</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">DSA</td>
                 </tr>
-                <tr>
-                  <td className="text-left border-separate border border-slate-400">Torrey Pines HS Innovation</td>
-                  <td className="text-left border-separate border border-slate-400">Commercial</td>
-                  <td className="text-left border-separate border border-slate-400">School</td>
-                  <td className="text-left border-separate border border-slate-400">Construction</td>
-                  <td className="text-left border-separate border border-slate-400">Midrise</td>
-                  <td className="text-left border-separate border border-slate-400">DSA</td>
+                <tr className='hover:bg-base-300'>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Torrey Pines HS Innovation</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Commercial</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">School</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Construction</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Midrise</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">DSA</td>
                 </tr>
-                <tr>
-                  <td className="text-left border-separate border border-slate-400">Sharp Innovation Education Center</td>
-                  <td className="text-left border-separate border border-slate-400">Commercial</td>
-                  <td className="text-left border-separate border border-slate-400">School</td>
-                  <td className="text-left border-separate border border-slate-400">Construction</td>
-                  <td className="text-left border-separate border border-slate-400">Midrise</td>
-                  <td className="text-left border-separate border border-slate-400">DSA</td>
+                <tr className='hover:bg-base-300'>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Sharp Innovation Education Center</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Commercial</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">School</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Construction</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">Midrise</td>
+                  <td className="text-left p-4 border-collapse border border-slate-400">DSA</td>
                 </tr>
               </td>
             </tbody>

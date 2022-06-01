@@ -1,5 +1,5 @@
 import React from 'react';
-import resumeDownload from "../../img/Resume.docx";
+import resumeDownload from "../img/LeClair-Resume.docx";
 
 function Header({ currentPage, handlePageChange }) {
   return (

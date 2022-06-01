@@ -1,4 +1,5 @@
 import React from 'react';
+import profilePic from "../../img/Profile-Picture.png";
 
 export default function Contact() {
 
@@ -10,13 +11,21 @@ const sendEmail = () => {
     let contactName = document.getElementById('contact-name').value;
     let emailSubject = document.getElementById('email-subject').value;
     let emailBody = document.getElementById('email-body').value;
-    let email = "mailto:brennanl.dev@gmail.com?subject=" + emailSubject + "&body=" + emailBody + "%0d%0a from: " + contactName + " at " + emailAddress;
+    let email = "mailto:brennanl.dev@gmail.com?subject=" + emailSubject + "&body=" + emailBody + " from: " + contactName + " at " + emailAddress;
     return document.location = email;
 }
 
 
   return (
     <>
+    <div className="bg-neutral w-full justify-center text-center">
+        <figure>
+          <div className="avatar">
+            <div className="w-24 mask mask-squircle">
+              <img alt="Headshot" src={profilePic} />
+            </div>
+          </div>
+        </figure>
       <br />
       <br />
       <h1 className="font-semibold text-xl text-primary-content text-center">Contact Me</h1>
@@ -47,8 +56,9 @@ const sendEmail = () => {
           </tbody>
         </table>
       </div>
+      </div>
       
-      <a id="send-email" className="flex justify-center" href={() => sendEmail()}><button onClick={() => sendEmail()} className="btn btn-secondary text-primary-content text-center">Send</button></a>
+      <a id="send-email" className="flex justify-center" href={() => sendEmail()} onClick={() => sendEmail()}><button className="btn btn-secondary text-primary-content text-center">Send</button></a>
     </>
   );
 }
