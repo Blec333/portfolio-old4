@@ -29,18 +29,17 @@ export default function About() {
               <th className="text-center p-4">Projects</th>
             </thead>
             <tbody className="">
-                <thead>
-                  <th className="text-center p-4"></th>
-                </thead>
+              <td className="flex flex-col items-start text-left p-5">
+              </td>
               <td className="flex flex-col items-start text-left p-4 border-collapse border border-slate-400">
-                <tr className='hover:bg-base-300'>Spending time with my wife & boys!</tr>
-                <tr className='hover:bg-base-300'>Building applications</tr>
-                <tr className='hover:bg-base-300'>Sheetmetal Craft</tr>
-                <tr className='hover:bg-base-300'>Biking</tr>
-                <tr className='hover:bg-base-300'>Swimming - Pool (not ocean)</tr>
-                <tr className='hover:bg-base-300'>Reading about emerging technologies</tr>
-                <tr className='hover:bg-base-300'>Pondering the mysteries of the universe</tr>
-                <tr className='hover:bg-base-300'>Wine & Craft Beer</tr>
+                <tr className='hover:bg-base-300'>* Spending time with my wife & boys!</tr>
+                <tr className='hover:bg-base-300'>* Building applications</tr>
+                <tr className='hover:bg-base-300'>* Sheetmetal Craft</tr>
+                <tr className='hover:bg-base-300'>* Biking</tr>
+                <tr className='hover:bg-base-300'>* Swimming - Pool (not ocean)</tr>
+                <tr className='hover:bg-base-300'>* Reading about emerging technologies</tr>
+                <tr className='hover:bg-base-300'>* Pondering the mysteries of the universe</tr>
+                <tr className='hover:bg-base-300'>* Wine & Craft Beer</tr>
               </td>
               <td className="text-left p-4">
                 <thead>

@@ -7,7 +7,7 @@ function Header({ currentPage, handlePageChange }) {
       <nav>
         <div className="navbar z-20 bg-neutral text-primary-content">
           <div className="flex-1">
-            <a className="btn normal-case text-xl" href="/">Portfolio</a>
+            <a className="btn normal-case text-xl" href="/">Brennan LeClair's Portfolio</a>
           </div>
           <div className="flex-none">
             <ul className="menu menu-horizontal p-0">
@@ -18,7 +18,7 @@ function Header({ currentPage, handlePageChange }) {
                     <a href="#home" onClick={() => handlePageChange('Home')} className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}>Home</a>
                   </li>
                   <li className="px-2 mx-2">
-                    <a href="#about" onClick={() => handlePageChange('About')} className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}>About</a>
+                    <a href="#about" onClick={() => handlePageChange('About')} className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}>About Me</a>
                   </li>
                   <li className="px-2 mx-2">
                     <a href="#portfolio" onClick={() => handlePageChange('Portfolio')} className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}>Portfolio</a>
