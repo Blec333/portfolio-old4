@@ -1,4 +1,5 @@
 import React from 'react';
+import resumeDownload from "../../img/Resume.docx";
 
 function Header({ currentPage, handlePageChange }) {
   return (
@@ -28,7 +29,7 @@ function Header({ currentPage, handlePageChange }) {
                 </ul>
               </li>
               <li tabIndex="0">
-                <a href="./Resume.docx" download="">Download Resume</a>
+                <a href={resumeDownload} download="">Download Resume</a>
               </li>
             </ul>
           </div>

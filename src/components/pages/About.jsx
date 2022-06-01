@@ -41,6 +41,7 @@ export default function About() {
               </td>
               <td className="text-left">
                 <thead>
+                  <th className="text-center">Name</th>
                   <th className="text-center">Category</th>
                   <th className="text-center">Type</th>
                   <th className="text-center">Industry</th>
