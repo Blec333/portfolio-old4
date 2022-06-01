@@ -48,7 +48,7 @@ const sendEmail = () => {
         </table>
       </div>
       
-      <a id="send-email" className="flex justify-center" href={() => sendEmail()} onClick={() => sendEmail()} rel="noreferrer" target="_blank"><button className="btn btn-secondary text-primary-content text-center">Send</button></a>
+      <a id="send-email" className="flex justify-center" href={() => sendEmail()}><button onClick={() => sendEmail()} className="btn btn-secondary text-primary-content text-center">Send</button></a>
     </>
   );
 }

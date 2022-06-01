@@ -1,14 +1,15 @@
 import React from 'react';
+import profilePic from "../../img/Profile-Picture.png";
 
 export default function Home() {
   return (
     <>
-    <div className="bg-neutral  w-full justify-center text-center">
+    <div className="bg-neutral w-full justify-center text-center">
       <br/>
       <figure>
         <div className="avatar">
           <div className="w-24 mask mask-squircle">
-            <img alt="Headshot" src="./Profile-Picture.png" />
+            <img alt="Headshot" src={profilePic} />
           </div>
         </div>
       </figure>

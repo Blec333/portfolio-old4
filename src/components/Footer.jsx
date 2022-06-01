@@ -1,4 +1,5 @@
 import React from 'react';
+import stackOverflow from "../img/stackoverflow.png";
 
 function Footer() {
   return (
@@ -12,7 +13,7 @@ function Footer() {
           </a>
           <a href="https://www.linkedin.com/in/brennanleclair"><img width="24" height="24" alt="linkedin" src="https://www.pngall.com/wp-content/uploads/2016/07/Linkedin-PNG-Pic.png"></img>
           </a>
-          <a href="https://stackoverflow.com/users/19237165/blec"><img width="24" height="24" alt="stackoverflow" src="./stackoverflow.png"></img>
+          <a href="https://stackoverflow.com/users/19237165/blec"><img width="24" height="24" alt="stackoverflow" src={stackOverflow}></img>
           </a>
         </div>
       </footer>
