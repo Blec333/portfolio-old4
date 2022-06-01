@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.e0ff9489.css",
-    "main.js": "/static/js/main.bfd51d5c.js",
-    "static/media/AdventureQuest.gif": "/static/media/AdventureQuest.201d189bfa64bffb390c.gif",
-    "static/media/search-demo.gif": "/static/media/search-demo.6473eb6aff873e5fda44.gif",
-    "static/media/Weather Dashboard.gif": "/static/media/Weather Dashboard.cfc4d8a28644baa7807c.gif",
-    "static/media/Work Day Scheduler.gif": "/static/media/Work Day Scheduler.a792893b2e5d6a467f89.gif",
-    "static/media/Profile-Picture.png": "/static/media/Profile-Picture.7647f82fef359bb96137.png",
-    "static/media/python.png": "/static/media/python.4008a119f1274deadeb1.png",
-    "static/media/c-sharp.png": "/static/media/c-sharp.0e229362adb67eb789c1.png",
-    "static/media/autolisp.jpg": "/static/media/autolisp.ac3001e30a4fe36861ee.jpg",
-    "static/media/stackoverflow.png": "/static/media/stackoverflow.02c7d1e102effbd9895c.png",
-    "index.html": "/index.html",
-    "main.e0ff9489.css.map": "/static/css/main.e0ff9489.css.map",
-    "main.bfd51d5c.js.map": "/static/js/main.bfd51d5c.js.map"
+    "main.css": "/portfolio/static/css/main.e0ff9489.css",
+    "main.js": "/portfolio/static/js/main.46073dae.js",
+    "static/media/AdventureQuest.gif": "/portfolio/static/media/AdventureQuest.201d189bfa64bffb390c.gif",
+    "static/media/search-demo.gif": "/portfolio/static/media/search-demo.6473eb6aff873e5fda44.gif",
+    "static/media/Weather Dashboard.gif": "/portfolio/static/media/Weather Dashboard.cfc4d8a28644baa7807c.gif",
+    "static/media/Work Day Scheduler.gif": "/portfolio/static/media/Work Day Scheduler.a792893b2e5d6a467f89.gif",
+    "static/media/Profile-Picture.png": "/portfolio/static/media/Profile-Picture.7647f82fef359bb96137.png",
+    "static/media/python.png": "/portfolio/static/media/python.4008a119f1274deadeb1.png",
+    "static/media/c-sharp.png": "/portfolio/static/media/c-sharp.0e229362adb67eb789c1.png",
+    "static/media/autolisp.jpg": "/portfolio/static/media/autolisp.ac3001e30a4fe36861ee.jpg",
+    "static/media/stackoverflow.png": "/portfolio/static/media/stackoverflow.02c7d1e102effbd9895c.png",
+    "index.html": "/portfolio/index.html",
+    "main.e0ff9489.css.map": "/portfolio/static/css/main.e0ff9489.css.map",
+    "main.46073dae.js.map": "/portfolio/static/js/main.46073dae.js.map"
   },
   "entrypoints": [
     "static/css/main.e0ff9489.css",
-    "static/js/main.bfd51d5c.js"
+    "static/js/main.46073dae.js"
   ]
 }
