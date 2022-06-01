@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.e0ff9489.css",
-    "main.js": "/portfolio/static/js/main.46073dae.js",
+    "main.css": "/portfolio/static/css/main.da15e2fe.css",
+    "main.js": "/portfolio/static/js/main.64ccf11c.js",
     "static/media/AdventureQuest.gif": "/portfolio/static/media/AdventureQuest.201d189bfa64bffb390c.gif",
     "static/media/search-demo.gif": "/portfolio/static/media/search-demo.6473eb6aff873e5fda44.gif",
     "static/media/Weather Dashboard.gif": "/portfolio/static/media/Weather Dashboard.cfc4d8a28644baa7807c.gif",
@@ -10,13 +10,14 @@
     "static/media/python.png": "/portfolio/static/media/python.4008a119f1274deadeb1.png",
     "static/media/c-sharp.png": "/portfolio/static/media/c-sharp.0e229362adb67eb789c1.png",
     "static/media/autolisp.jpg": "/portfolio/static/media/autolisp.ac3001e30a4fe36861ee.jpg",
+    "static/media/LeClair-Resume.docx": "/portfolio/static/media/LeClair-Resume.3fe9d8d06634fe5d9ed0.docx",
     "static/media/stackoverflow.png": "/portfolio/static/media/stackoverflow.02c7d1e102effbd9895c.png",
     "index.html": "/portfolio/index.html",
-    "main.e0ff9489.css.map": "/portfolio/static/css/main.e0ff9489.css.map",
-    "main.46073dae.js.map": "/portfolio/static/js/main.46073dae.js.map"
+    "main.da15e2fe.css.map": "/portfolio/static/css/main.da15e2fe.css.map",
+    "main.64ccf11c.js.map": "/portfolio/static/js/main.64ccf11c.js.map"
   },
   "entrypoints": [
-    "static/css/main.e0ff9489.css",
-    "static/js/main.46073dae.js"
+    "static/css/main.da15e2fe.css",
+    "static/js/main.64ccf11c.js"
   ]
 }
