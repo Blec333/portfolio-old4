@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.239bd985.css",
-    "main.js": "/portfolio/static/js/main.92167685.js",
+    "main.js": "/portfolio/static/js/main.924587ae.js",
     "static/media/AdventureQuest.gif": "/portfolio/static/media/AdventureQuest.201d189bfa64bffb390c.gif",
     "static/media/search-demo.gif": "/portfolio/static/media/search-demo.6473eb6aff873e5fda44.gif",
     "static/media/Weather Dashboard.gif": "/portfolio/static/media/Weather Dashboard.cfc4d8a28644baa7807c.gif",
@@ -14,10 +14,10 @@
     "static/media/stackoverflow.png": "/portfolio/static/media/stackoverflow.02c7d1e102effbd9895c.png",
     "index.html": "/portfolio/index.html",
     "main.239bd985.css.map": "/portfolio/static/css/main.239bd985.css.map",
-    "main.92167685.js.map": "/portfolio/static/js/main.92167685.js.map"
+    "main.924587ae.js.map": "/portfolio/static/js/main.924587ae.js.map"
   },
   "entrypoints": [
     "static/css/main.239bd985.css",
-    "static/js/main.92167685.js"
+    "static/js/main.924587ae.js"
   ]
 }
