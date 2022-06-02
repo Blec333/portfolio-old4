@@ -29,8 +29,10 @@ export default function AboutMe() {
           <div className="text-primary-content text-center">Proficient and resourceful Project and Preconstruction Manager with 8+ years of extensive industry experience providing cutting-edge solutions in the design, engineering, and construction sectors. Analytical and practical-minded, adept at identifying opportunities for improvement, implementing changes, and measuring the impact of those changes. Exceptionally competent management specialist equipped with unmatched competencies in project plan implementation and mechanical design management. Exemplified integrity, accountability, and solid work ethic with an excellent grasp of project management methodologies to nurture productive collaborations and achieve optimal results. A focused leader in adopting new tools and techniques that improve data management and boost inter-departmental collaboration.
           </div>
         </div>
+        <br />
+        <br />
         <div className="flex overflow-x-auto bg-transparent text-center justify-center">
-          <table className="table-auto text-primary-content text-center border-collapse border border-slate-400">
+          <table className="table-auto text-primary-content text-center">
             <thead>
               <th className="text-center p-4">Personal Interests</th>
             </thead>

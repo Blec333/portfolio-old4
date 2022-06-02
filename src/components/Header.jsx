@@ -1,5 +1,6 @@
 import React from 'react';
 import resumeDownload from "../img/LeClair-Resume.docx";
+import save from "../img/floppy.png";
 
 function Header({ currentPage, handlePageChange }) {
   return (
@@ -7,7 +8,7 @@ function Header({ currentPage, handlePageChange }) {
       <nav>
         <div className="navbar z-20 bg-neutral text-primary-content">
           <div className="flex-1">
-            <a className="btn normal-case text-xl" href="/">Brennan LeClair's {currentPage} Page</a>
+            <a className="btn normal-case text-xl" href="/">Brennan's {currentPage}</a>
           </div>
           <div className="flex-none">
             <ul className="menu menu-horizontal p-0">
@@ -29,7 +30,7 @@ function Header({ currentPage, handlePageChange }) {
                 </ul>
               </li>
               <li tabIndex="0">
-                <a href={resumeDownload} download="">Download Resume</a>
+                <a href={resumeDownload} download="">Resume <img width="24" height="24" alt="floppy" src={save}></img></a>
               </li>
             </ul>
           </div>
