@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.57694d7e.css",
-    "main.js": "/portfolio/static/js/main.ed60e75c.js",
+    "main.css": "/portfolio/static/css/main.11648b18.css",
+    "main.js": "/portfolio/static/js/main.c024dd3c.js",
     "static/media/social-media-api.gif": "/portfolio/static/media/social-media-api.901607e0b31b19c6e594.gif",
     "static/media/AdventureQuest.gif": "/portfolio/static/media/AdventureQuest.201d189bfa64bffb390c.gif",
     "static/media/search-demo.gif": "/portfolio/static/media/search-demo.6473eb6aff873e5fda44.gif",
@@ -18,11 +18,11 @@
     "static/media/stackoverflow.png": "/portfolio/static/media/stackoverflow.02c7d1e102effbd9895c.png",
     "static/media/github.png": "/portfolio/static/media/github.5a3130a0f8769344b958.png",
     "index.html": "/portfolio/index.html",
-    "main.57694d7e.css.map": "/portfolio/static/css/main.57694d7e.css.map",
-    "main.ed60e75c.js.map": "/portfolio/static/js/main.ed60e75c.js.map"
+    "main.11648b18.css.map": "/portfolio/static/css/main.11648b18.css.map",
+    "main.c024dd3c.js.map": "/portfolio/static/js/main.c024dd3c.js.map"
   },
   "entrypoints": [
-    "static/css/main.57694d7e.css",
-    "static/js/main.ed60e75c.js"
+    "static/css/main.11648b18.css",
+    "static/js/main.c024dd3c.js"
   ]
 }
