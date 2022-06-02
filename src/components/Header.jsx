@@ -8,7 +8,7 @@ function Header({ currentPage, handlePageChange }) {
       <nav>
         <div className="navbar z-20 bg-neutral text-primary-content">
           <div className="flex-1">
-            <a className="btn normal-case text-xl" href="/">Brennan's {currentPage}</a>
+            <a className="btn normal-case text-xl" href="/portfolio">Brennan's {currentPage}</a>
           </div>
           <div className="flex-none">
             <ul className="menu menu-horizontal p-0">

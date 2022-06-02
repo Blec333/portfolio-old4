@@ -15,7 +15,7 @@ export default function AboutMe() {
         </figure>
         <div className="z-20 card-body justify-center">
           <h1 className="card-title text-primary-content justify-center text-center">Brennan LeClair</h1>
-          <p className="text-primary-content text-center">Sofware Developer</p>
+          <p className="text-primary-content text-center">Software Developer</p>
           <p className="text-primary-content text-center">(619) 354-7965</p>
           <p className="text-primary-content text-center">brennanl.dev@gmail.com</p>
           <div className="card-actions justify-center">
